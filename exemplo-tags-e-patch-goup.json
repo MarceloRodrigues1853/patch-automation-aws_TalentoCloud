@@ -1,25 +1,31 @@
 [
   {
+    // Primeira instância EC2 – Grupo de produção
     "ResourceType": "EC2",
     "Tags": [
       {
+        // Tag utilizada pelo AWS Systems Manager Patch Manager para identificar o grupo de patch
         "Key": "PatchGroup",
         "Value": "Producao"
       },
       {
+        // Tag adicional para indicar o ambiente funcional da instância
         "Key": "Ambiente",
         "Value": "Back-end"
       }
     ]
   },
   {
+    // Segunda instância EC2 – Grupo de desenvolvimento
     "ResourceType": "EC2",
     "Tags": [
       {
+        // Esta tag também será usada para aplicar políticas de patch específicas
         "Key": "PatchGroup",
         "Value": "Desenvolvimento"
       },
       {
+        // Indica que a instância pertence ao ambiente front-end
         "Key": "Ambiente",
         "Value": "Front-end"
       }
