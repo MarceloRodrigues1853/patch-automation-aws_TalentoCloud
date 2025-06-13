@@ -1,0 +1,28 @@
+[
+  {
+    "ResourceType": "EC2",
+    "Tags": [
+      {
+        "Key": "PatchGroup",
+        "Value": "Producao"
+      },
+      {
+        "Key": "Ambiente",
+        "Value": "Back-end"
+      }
+    ]
+  },
+  {
+    "ResourceType": "EC2",
+    "Tags": [
+      {
+        "Key": "PatchGroup",
+        "Value": "Desenvolvimento"
+      },
+      {
+        "Key": "Ambiente",
+        "Value": "Front-end"
+      }
+    ]
+  }
+]
