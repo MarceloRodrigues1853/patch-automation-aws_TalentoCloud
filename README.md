@@ -47,8 +47,8 @@ Garantir que todas as instâncias EC2 estejam atualizadas com os patches mais re
 
 ## 📂 Arquivos
 
-- `documentacao.md`: Detalhamento da tarefa e contexto
-- `exemplo-tags-e-patch-group.json`: Exemplo de tags para EC2
+- `[documentacao.md](https://github.com/MarceloRodrigues1853/patch-automation-aws_TalentoCloud/blob/main/documento.md)`: Detalhamento da tarefa e contexto
+- `[exemplo-tags-e-patch-group.json](https://github.com/MarceloRodrigues1853/patch-automation-aws_TalentoCloud/blob/main/exemplo-tags-e-patch-goup.json)`: Exemplo de tags para EC2
 
 ## 📎 Link útil
 
